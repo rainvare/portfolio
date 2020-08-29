@@ -53,7 +53,6 @@ section {
 img {
     display: block;
     max-width: 100%;
-    
 }
 
 strong {
@@ -61,7 +60,8 @@ strong {
 }
 
 :focus {
-    outline: 3px solid var(--clr-accent);
+    outline
+    : 3px solid var(--clr-accent);
     outline-offset: 3px;
 }
 /* Buttons */ 
@@ -373,7 +373,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 2em;
 }
 
