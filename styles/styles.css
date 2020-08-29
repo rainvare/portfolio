@@ -52,7 +52,7 @@ section {
 
 img {
     display: block;
-    max-width: 480px;
+    max-width: 100%;
     
 }
 
@@ -373,7 +373,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
     margin: 2em;
 }
 
